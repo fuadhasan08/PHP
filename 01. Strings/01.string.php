@@ -219,4 +219,4 @@ echo $dpro->myFunc();
 
 // echo count($people);
 
-echo "Output";
+print_r("Lick");
