@@ -71,7 +71,7 @@
 
 // // echo strchr($str3, "Dolor"); // Same as Strstr
 // // echo PHP_EOL;
-
+// kksllk
 // //Search string character and same as strstr
 // echo strpbrk( $str, "l" );
 // echo PHP_EOL;
