@@ -1,10 +1,10 @@
-<?php 
+<?php
 //Find the Given Word in the String (Case Insensitive)
 
 $str = "Hello there, welcome to my channel, it's ok brother.";
 $find = "h";
 
-echo stripos($str,$find); //Will return the index of the find word or letter.
+echo stripos($str, $find); //Will return the index of the find word or letter.
 echo PHP_EOL;
 
 
@@ -72,17 +72,14 @@ echo PHP_EOL;
 
 $my_str = "Hello World! Hello Try";
 $splitting = str_split($my_str);
-foreach ( $splitting  as $key => $value) {
-    if(@$splitting[$key] == " ") {
+foreach ($splitting  as $key => $value) {
+    if (@$splitting[$key] == " ") {
         //unset($splitting[$key]); //to keep the removed position
         array_splice($splitting, $key, 1); //to skip the removed position
     }
 }
 print_r($splitting);
-print_r(error_get_last());
+print_r(error_get_last()["message"]);
 //echo gettype(implode("", $slicing));
 
-$arr = [1,2,3,4,45,56,67,7];
-
-
-
+$arr = [1, 2, 3, 4, 45, 56, 67, 7];
